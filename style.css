@@ -7,13 +7,13 @@
 }
 
 body{
-    background-color: #222;
+    background-color: #232324;
 }
 
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: linear-gradient(160deg, #042c3f 0%,   #0e0f2e 50%, #020542 100%);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -58,16 +58,34 @@ body{
 .weather-icon{
     width: 170px;
     margin-top: 30px;
+    margin-bottom: -8px;
 }
 
 .weather h1{
     font-size: 80px;
     font-weight: 500;
 }
+.weather h3{
+    margin-top: -50px;
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
 .weather h2{
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
+}
+
+.feels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .details{
@@ -76,7 +94,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    margin-top: 50px;
+    margin-top:  40px;
 }
 
 .col{
@@ -104,4 +122,12 @@ body{
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+
+.bord{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 3px;
+    border-style: dotted;
+    border-radius: 90px;
 }
